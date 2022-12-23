@@ -1,0 +1,36 @@
+@import url(/css/header.css);
+@import url(/css/body.css);
+@import url(/css/footer.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+main,
+section,
+article {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Fahkwang", sans-serif;
+}
+
+
+/*# sourceMappingURL=style.css.map */

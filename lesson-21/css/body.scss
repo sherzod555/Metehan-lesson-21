@@ -1,0 +1,110 @@
+.content-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 138px 120px;
+    column-gap: 120px;
+    .card__text-desk {
+        .card-pretitle {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 21px;
+        }
+        .card-name {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 42px;
+            padding-top: 8px;
+        }
+        .card-desc {
+            padding-top: 16px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 39px;
+        }
+        .card-details {
+            padding-top: 16px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            color: #FE5900;
+        }
+    }
+    .card-img img {
+        max-width: 570px;
+    }
+    .card__text-mobile {
+        display: none;
+    }
+}
+
+.card-1 {
+    background-color: #F9F9F9;
+}
+
+.card-2 {
+    background-color: #EAF2F8;
+}
+
+.card-3 {
+    background-color: #ECF1EF;
+}
+
+.card-4 {
+    background-color: #F6F7FB;
+}
+
+.card-5 {
+    background-color: #F9F9F9;
+}
+
+.card-6 {
+    background-color: #FFF9FA;
+}
+
+.card-7 {
+    background-color: #F6F9FF;
+}
+
+@media screen and (max-width: 480px) {
+    .content-card {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        .card__text-desk {
+            display: none;
+        }
+        .card-img img {
+            max-width: 327px;
+        }
+        .card__text-mobile {
+            display: block;
+            .card-pretitle {
+                padding-top: 16px;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            .card-name {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 23px;
+                padding-top: 8px;
+            }
+            .card-desc {
+                padding-top: 8px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+            }
+            .card-details {
+                padding-top: 8px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 29px;
+                color: #FE5900;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.footer-container {
+  height: 100vh;
+  width: 100vw;
+  background: #140D0C;
+  color: #F9F2F2;
+  padding: 120px 120px 0;
+}
+.footer-container .footer-help-question {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 42px;
+}
+.footer-container .footer__send-me-details {
+  padding-bottom: 100px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  color: #140D0C;
+  text-shadow: 0 0 3px #f9f2f2;
+}
+.footer-container .footer-contact {
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+.footer-container .contact-link {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FE5900;
+  padding-top: 55px;
+}
+.footer-container .footer-social {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  padding-top: 16px;
+}
+.footer-container .footer-nav-menu {
+  display: flex;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FE5900;
+  padding-bottom: 110px;
+}
+.footer-container .footer-nav-menu li a:hover {
+  color: #ffa777;
+}
+.footer-container .footer-small-desc {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(249, 242, 242, 0.64);
+}
+.footer-container .footer-author {
+  padding-bottom: 55px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(249, 242, 242, 0.64);
+}
+.footer-container span {
+  color: #FE5900;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-container {
+    padding: 180px 24px 0;
+  }
+  .footer-container .footer-help-question {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 16px;
+  }
+  .footer-container .footer__send-me-details {
+    font-size: 24px;
+    line-height: 31px;
+    padding-bottom: 64px;
+  }
+  .footer-container .footer-contact {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 8px;
+  }
+  .footer-container .contact-link {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 32px;
+  }
+  .footer-container .footer-social {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 8px;
+  }
+  .footer-container .footer-nav-menu {
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    padding-bottom: 64px;
+  }
+  .footer-container .footer-small-desc {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 16px;
+  }
+  .footer-container .footer-author {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 64px;
+  }
+}/*# sourceMappingURL=footer.css.map */

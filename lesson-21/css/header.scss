@@ -1,0 +1,70 @@
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #140D0C;
+    color: #F9F2F2;
+    .header-logo {
+        padding-top: 48px;
+        display: flex;
+        justify-content: center;
+    }
+    .header-content {
+        padding: 250px 0 100px 120px;
+        .header__pre-title {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 21px;
+            color: rgba(249, 242, 242, 0.48);
+        }
+        .header-title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 42px;
+            padding: 9px 0 16px;
+        }
+        .header-desc {
+            max-width: 755px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 39px;
+            color: rgba(249, 242, 242, 0.64);
+            .header__desc-span {
+                color: #FE5900;
+            }
+        }
+    }
+    .header__scroll-down {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    // 
+    .header-container {
+        .header-content {
+            padding: 240px 0 68px 20px;
+            .header__pre-title {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            .header-title {
+                font-size: 18px;
+                line-height: 23px;
+                padding: 8px 0 8px;
+            }
+            .header-desc {
+                max-width: 327px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+            }
+        }
+        .header__scroll-down {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}
